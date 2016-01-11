@@ -1,0 +1,22 @@
+{
+  "name":"infabo/admin-credentials",
+  "type":"magento-module",
+  "license":"GPLv3",
+  "homepage":"https://github.com/infabo/AdminCredentials",
+  "description":"Save admin login and password for version 1.8+",
+  "authors":[
+    {
+      "name":"yaro-atwix",
+      "email":"yaro@atwix.com",
+      "role": "Author/Maintainer"
+    },
+    {
+      "name": "Ingo Fabbri",
+      "email": "if@newtown.at",
+      "role": "Maintainer"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  }
+}
