@@ -38,7 +38,7 @@ class Atwix_AdminCredentials_Model_Observer
             //<![CDATA[
                 document.observe("dom:loaded", function() {
                     $("loginForm").setAttribute("autocomplete", "on");
-                    $("loginForm").writeAttribute("action", "' . $this->getUrl('adminhtml') . '");
+                    $("loginForm").writeAttribute("action", "' . Mage::getSingleton('core/url')->getUrl('adminhtml') . '");
                     $("dummy").remove();
                 });
             //]]>
